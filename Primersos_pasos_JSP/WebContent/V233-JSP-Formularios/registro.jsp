@@ -17,7 +17,10 @@
 	<br /> Nombre:
 	<%=request.getParameter("nombre")%>
 	&nbsp; Apellido:
-	<%=request.getParameter("apellido")%><br />
+	<%=request.getParameter("apellido")%>
+	<br />
+	<br />
+
 	<br />
 
 </body>
