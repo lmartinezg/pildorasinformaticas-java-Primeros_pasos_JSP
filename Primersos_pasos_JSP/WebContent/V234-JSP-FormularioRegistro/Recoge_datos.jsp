@@ -1,5 +1,3 @@
-<%@page import="javax.servlet.jsp.tagext.TryCatchFinally"%>
-<%@page import="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"%>
 <%@page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%
@@ -25,7 +23,7 @@
 		String usuario = request.getParameter("usuario");
 		String contra = request.getParameter("contra");
 		String pais = request.getParameter("pais");
-		String tecno = request.getParameter("tecno");
+		String tecno = request.getParameter("tecnologias");
 
 		Class.forName("com.mysql.jdbc.Driver");
 

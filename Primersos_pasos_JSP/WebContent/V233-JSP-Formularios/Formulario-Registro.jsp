@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +14,7 @@
 
 	<br />
 
-	<form action="registro.jsp">
+	<form action="registro.jsp" method="post">
 
 		Nombre: <input type="text" name="nombre"><br /> <br />
 		Apellido: <input type="text" name="apellido"><br /> <br /> <input
